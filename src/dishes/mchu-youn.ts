@@ -1,7 +1,7 @@
 import type { Food } from "@/types/food";
 
 export const mchuYoun: Food = {
-  title: "Samlor Mchu Youn (Vietnamese-Style Cambodian Sour Soup)",
+  title: "Samlor Mchu Youn (Cambodian Sour Soup)",
   description:
     "Samlor Mchu Youn is a flavorful Cambodian sour soup influenced by Vietnamese cuisine. It features a tangy broth with tamarind, pineapple, and fresh herbs, paired with shrimp or fish and a mix of vegetables.",
   ingredients: [

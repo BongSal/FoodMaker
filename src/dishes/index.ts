@@ -6,6 +6,7 @@ import { friedBeefBroccoli } from "./fried-beef-with-broccoli";
 import { tomyumSeafood } from "./tomyum-seafood";
 import { stirFriedChickenWithBroccoli } from "./stir-fried-chicken";
 import { chineseSteamedFish } from "./chinese-steamed-fish";
+import { squidChiliFry } from "./squid-chili-fry";
 
 export const dishes: Array<Food> = [
   beefWithGinger,
@@ -15,4 +16,5 @@ export const dishes: Array<Food> = [
   tomyumSeafood,
   stirFriedChickenWithBroccoli,
   chineseSteamedFish,
+  squidChiliFry,
 ];
