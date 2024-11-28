@@ -154,6 +154,7 @@ const generateNewFood = () => {
     const idx = Math.floor(Math.random() * (max - min) + min);
     if (idx != randomIdx.value) {
       randomIdx.value = Math.floor(Math.random() * (max - min) + min);
+      container.value?.scrollTo({ top: 0, behavior: "instant" });
       break;
     }
   }
