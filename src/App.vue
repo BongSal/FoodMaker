@@ -3,7 +3,7 @@
     class="w-full max-w-md mx-auto rounded-none h-screen flex flex-col space-y-1"
   >
     <div
-      class="w-full h-48 bg-gray-200 rounded-none flex items-center justify-center flex-shrink-0"
+      class="w-full h-56 bg-gray-200 rounded-none flex items-center justify-center flex-shrink-0"
     >
       <img :src="food.banner_image" class="object-cover h-full w-full" />
     </div>

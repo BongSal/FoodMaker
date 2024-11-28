@@ -1,160 +1,18 @@
-export const dishes = [
-  {
-    title: "Fried Beef with Ginger",
-    description:
-      "Fried Beef with Ginger is a savory and aromatic Cambodian stir-fry dish, combining tender beef strips with fresh ginger, onions, and flavorful seasonings.",
-    ingredients: [
-      "500g beef, thinly sliced",
-      "50g fresh ginger, julienned",
-      "1 onion, sliced",
-      "2 cloves garlic, minced",
-      "2 tbsp soy sauce",
-      "1 tbsp oyster sauce",
-      "1 tsp sugar",
-      "1 tsp black pepper",
-      "2 tbsp cooking oil",
-      "1 bunch fresh green onions, chopped",
-      "1 red chili, sliced (optional)",
-    ],
-    how_to_cook: [
-      "1. Heat cooking oil in a wok or skillet over medium-high heat.",
-      "2. Add the minced garlic and julienned ginger, stir-frying until aromatic.",
-      "3. Add the sliced beef to the wok and stir-fry until browned.",
-      "4. Stir in the onion slices and continue cooking for 2-3 minutes until softened.",
-      "5. Season with soy sauce, oyster sauce, sugar, and black pepper. Mix well.",
-      "6. Add the chopped green onions and optional red chili, stirring for 1 minute.",
-      "7. Serve hot with steamed rice.",
-    ],
-    youtube_link: "",
-    banner_image: "/images/fried-beef-with-ginger.webp",
-  },
-  {
-    title: "Samlor Mchu Youn (Vietnamese-Style Cambodian Sour Soup)",
-    description:
-      "Samlor Mchu Youn is a flavorful Cambodian sour soup influenced by Vietnamese cuisine. It features a tangy broth with tamarind, pineapple, and fresh herbs, paired with shrimp or fish and a mix of vegetables.",
-    ingredients: [
-      "500g shrimp or fish (cleaned and deveined if using shrimp)",
-      "1 liter of water or chicken broth",
-      "2 tbsp tamarind paste",
-      "1 cup pineapple chunks",
-      "2 tomatoes, quartered",
-      "1 cup bean sprouts",
-      "1 stalk lemongrass, bruised",
-      "4 kaffir lime leaves",
-      "2 tbsp fish sauce",
-      "1 tsp sugar",
-      "1 tsp salt",
-      "1 bunch fresh basil or sawtooth coriander",
-      "2 cloves garlic, minced",
-      "1 red chili, sliced (optional)",
-    ],
-    how_to_cook: [
-      "1. Heat the water or chicken broth in a pot over medium heat.",
-      "2. Add the tamarind paste, bruised lemongrass, and kaffir lime leaves to the pot. Let it simmer for 5 minutes to infuse the flavors.",
-      "3. Add the shrimp or fish to the broth and cook until just tender.",
-      "4. Stir in the pineapple chunks and quartered tomatoes. Simmer for another 5 minutes.",
-      "5. Season with fish sauce, sugar, and salt. Adjust the taste as needed to balance sour, salty, and sweet flavors.",
-      "6. Add the bean sprouts and let cook for 1-2 minutes.",
-      "7. Remove from heat and garnish with fresh basil or sawtooth coriander and optional red chili slices.",
-      "8. Serve hot with steamed rice.",
-    ],
-    youtube_link: "",
-    banner_image: "/images/samlor-mchu-youn.jpg",
-  },
-  {
-    title: "Ngam Ngov (Cambodian Chicken Sour Soup)",
-    description:
-      "Ngam Ngov is a traditional Cambodian sour soup made with tender chicken, green papaya, and flavorful herbs like lemongrass and kaffir lime leaves. It is known for its light and tangy broth, making it a comforting dish served with steamed rice.",
-    ingredients: [
-      "500g chicken (cut into bite-sized pieces)",
-      "1 green papaya, peeled and julienned",
-      "1 stalk lemongrass, bruised and chopped",
-      "4 kaffir lime leaves, torn",
-      "2 tbsp tamarind paste",
-      "1 liter of water or chicken broth",
-      "2 tbsp fish sauce",
-      "1 tsp sugar",
-      "1 tsp salt",
-      "1 red chili, sliced (optional)",
-      "1 bunch fresh basil or sawtooth coriander",
-      "2 cloves garlic, minced",
-      "1 tbsp cooking oil",
-    ],
-    how_to_cook: [
-      "1. Heat the cooking oil in a pot over medium heat and sauté the minced garlic until fragrant.",
-      "2. Add the chicken pieces and stir-fry until lightly browned.",
-      "3. Pour in the water or chicken broth and bring it to a boil.",
-      "4. Add the lemongrass, kaffir lime leaves, and tamarind paste. Simmer for 10 minutes.",
-      "5. Stir in the julienned green papaya and cook until tender.",
-      "6. Season the soup with fish sauce, sugar, and salt. Adjust the taste as needed.",
-      "7. Remove from heat and garnish with fresh basil or sawtooth coriander and optional red chili slices.",
-      "8. Serve hot with steamed rice.",
-    ],
-    youtube_link: "",
-    banner_image: "/images/ngam-ngov.jpg",
-  },
-  {
-    title: "Fried Beef with Broccoli",
-    description:
-      "Fried Beef with Broccoli is a classic stir-fry dish featuring tender beef slices and fresh broccoli florets cooked in a savory garlic soy sauce, perfect with steamed rice.",
-    ingredients: [
-      "500g beef, thinly sliced",
-      "300g broccoli, cut into florets",
-      "2 cloves garlic, minced",
-      "2 tbsp soy sauce",
-      "1 tbsp oyster sauce",
-      "1 tsp sugar",
-      "1 tsp cornstarch",
-      "1/4 cup water",
-      "2 tbsp cooking oil",
-      "1 tsp sesame oil (optional)",
-      "1 red chili, sliced (optional)",
-      "1 tbsp sesame seeds (for garnish)",
-    ],
-    how_to_cook: [
-      "1. In a small bowl, mix soy sauce, oyster sauce, sugar, cornstarch, and water to make a sauce.",
-      "2. Heat cooking oil in a wok or skillet over medium-high heat.",
-      "3. Add the minced garlic and stir-fry until aromatic.",
-      "4. Add the sliced beef and stir-fry until browned. Remove the beef and set aside.",
-      "5. In the same wok, add the broccoli florets and stir-fry for 2-3 minutes. Add a splash of water to help them soften.",
-      "6. Return the beef to the wok and pour in the sauce. Stir well to coat all ingredients.",
-      "7. Cook for another 2-3 minutes until the sauce thickens and the beef and broccoli are fully cooked.",
-      "8. Drizzle sesame oil (optional) and garnish with sesame seeds and sliced red chili.",
-      "9. Serve hot with steamed rice.",
-    ],
-    youtube_link: "",
-    banner_image:
-      "/images/broccoli-beef.jpg",
-  },
-  {
-    "title": "Tom Yum Seafood (Spicy Thai Sour Soup)",
-    "description": "Tom Yum Seafood is a famous Thai sour and spicy soup made with fresh seafood, such as shrimp, fish, and squid, infused with fragrant herbs like lemongrass, kaffir lime leaves, and galangal. The soup is tangy with a perfect balance of spice, sourness, and savory flavors.",
-    "ingredients": [
-      "500g mixed seafood (shrimp, squid, fish fillets)",
-      "1 liter of water or chicken broth",
-      "2 stalks lemongrass, chopped and bruised",
-      "4 kaffir lime leaves, torn",
-      "3-4 slices galangal",
-      "2-3 Thai bird's eye chilies, smashed",
-      "2 medium tomatoes, quartered",
-      "1 cup mushrooms, sliced",
-      "2-3 tbsp fish sauce",
-      "1 tbsp sugar",
-      "1-2 tbsp lime juice",
-      "1-2 tbsp chili paste or sambal oelek",
-      "1 small bunch fresh cilantro, chopped",
-      "1 red chili, sliced (optional for garnish)"
-    ],
-    "how_to_cook": [
-      "1. Bring the water or chicken broth to a boil in a pot.",
-      "2. Add the lemongrass, kaffir lime leaves, galangal, and smashed chilies to the pot. Let it simmer for 5-10 minutes to infuse the flavors.",
-      "3. Add the seafood (shrimp, squid, and fish fillets) and cook until just tender.",
-      "4. Stir in the tomatoes and mushrooms and cook for another 3-5 minutes.",
-      "5. Season the soup with fish sauce, sugar, lime juice, and chili paste. Adjust to taste.",
-      "6. Remove from heat and garnish with fresh cilantro and optional sliced red chili.",
-      "7. Serve hot with steamed rice or on its own."
-    ],
-    "youtube_link": "",
-    "banner_image": "/images/tomyum-seafood.jpg"
-  }
+import type { Food } from "@/types/food";
+import { beefWithGinger } from "./fried-beef-with-ginger";
+import { mchuYoun } from "./mchu-youn";
+import { ngamNgov } from "./ngam-ngov";
+import { friedBeefBroccoli } from "./fried-beef-with-broccoli";
+import { tomyumSeafood } from "./tomyum-seafood";
+import { stirFriedChickenWithBroccoli } from "./stir-fried-chicken";
+import { chineseSteamedFish } from "./chinese-steamed-fish";
+
+export const dishes: Array<Food> = [
+  beefWithGinger,
+  mchuYoun,
+  ngamNgov,
+  friedBeefBroccoli,
+  tomyumSeafood,
+  stirFriedChickenWithBroccoli,
+  chineseSteamedFish,
 ];
